@@ -233,7 +233,7 @@ CONNECTIONS_LIMIT=99
 29. Abrir para edição o arquivo .env com o comando abaixo e prencher com os dados acima. Para salvar se usa Ctrl + x
 
 ```bash
-nano izing/backend/.env
+vim izing/backend/.env
 ```
 
 30. Acessando o backend
@@ -313,7 +313,7 @@ cp .env.example .env
 41. Editando o arquivo .env com o comando abaixo e prencher com os dados do item 42. Para salvar se usa Ctrl + x
 
 ```bash
-nano .env
+vim .env
 ```
 
 42. Dados env frontend
@@ -326,7 +326,7 @@ FACEBOOK_APP_ID='23156312477653241'
 43. Criar arquivo server.js com dados do item 44. Para salvar se usa Ctrl + x
 
 ```bash
-nano server.js
+vim server.js
 ```
 
 44. Dados para gerar server.js
@@ -400,7 +400,7 @@ server {
 52. Criar e editar o arquivo izing-frontend com o comando abaixo e prencher com os dados do item 52. Para salvar se usa Ctrl + x
 
 ```bash
-sudo nano /etc/nginx/sites-available/izing-frontend
+sudo vim /etc/nginx/sites-available/izing-frontend
 ```
 
 53. Editar os dados abaixo com a URL que será usada para acessar o backend.
@@ -427,7 +427,7 @@ server {
 54. Criar e editar o arquivo izing-frontend com o comando abaixo e prencher com os dados do item 54. Para salvar se usa Ctrl + x
 
 ```bash
-sudo nano /etc/nginx/sites-available/izing-backend
+sudo vim /etc/nginx/sites-available/izing-backend
 ```
 
 55. Criar link simbólico para o arquivo izing-frontend
@@ -446,7 +446,7 @@ sudo ln -s /etc/nginx/sites-available/izing-backend /etc/nginx/sites-enabled/
 57. Editar o arquivo de configuração do nginx com o comando abaixo e prencher com os dados do item 59. adicionar antes# server_tokens off;. Para salvar se usa Ctrl + x
 
 ```bash
-sudo nano /etc/nginx/nginx.conf
+sudo vim /etc/nginx/nginx.conf
 ```
 
 58. adicionar antes# server_tokens off;
